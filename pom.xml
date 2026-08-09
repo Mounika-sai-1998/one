@@ -34,7 +34,7 @@
   <snapshots>
     <enabled>true</enabled>
   </snapshots>
-<repository>
+</repository>
 	</repositories>
 	<distributionManagement>
 		 <snapshotRepository>
