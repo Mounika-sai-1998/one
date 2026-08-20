@@ -1,6 +1,9 @@
 @library('devops-shared-libraries') _
 pipeline {
     agent any 
+    tools {
+        maven 'mymaven'    
+    }
     stages {
         stage('Checkout code') {
             steps {
