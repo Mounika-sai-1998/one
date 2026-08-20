@@ -1,4 +1,4 @@
-@library('devops-shared-libraries') _
+@Library('devops-shared-libraries') _
 pipeline {
     agent any 
     tools {
